@@ -1,0 +1,102 @@
+/* Example styles for the homepage */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #F41D18;
+    padding: 10px;
+  }
+  .logo {
+    margin-right: auto;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    height: 80px;
+    
+  }
+  header div {
+    color: #F41D18;
+    margin-right: auto;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  nav {
+    flex-grow: 1;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  nav ul li a {
+    color: #F41D18;
+    text-decoration: none;
+  }
+  .header-button {
+    margin-right: 60px;
+    background-color: #0170F9;
+    color:#fff;
+    width: 120px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0;
+    font-weight: bolder;
+  }
+  .header-button2 {
+    margin-right: 60px;
+    background-color: #fff;
+    color:#0170F9;
+    width: 120px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid #0170F9;
+
+    font-weight: bolder;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    background-color: #0170F9;
+  }
+  #home {
+    flex: 1;
+    margin-left: 40px;
+  }
+  #home h1 {
+    font-size: 64px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+  }
+  div img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
